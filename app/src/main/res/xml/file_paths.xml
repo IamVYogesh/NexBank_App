@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Decrypted statement PDFs are written here only while being viewed; StatementSyncWorker wipes them. -->
+    <cache-path name="statement_view" path="statement_view/" />
+</paths>

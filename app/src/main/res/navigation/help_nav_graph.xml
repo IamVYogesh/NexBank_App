@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/helpListFragment">
+
+    <fragment
+        android:id="@+id/helpListFragment"
+        android:name="com.nexbank.app.feature.support.HelpListFragment"
+        android:label="Help Center">
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/helpDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/helpDetailFragment"
+        android:name="com.nexbank.app.feature.support.HelpDetailFragment"
+        android:label="Article" />
+</navigation>
